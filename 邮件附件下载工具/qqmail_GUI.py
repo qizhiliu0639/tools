@@ -18,7 +18,6 @@ import os
 
 import tkinter.messagebox
 
-import c_step4_get_email
 
 def redirector(inputStr):
     t.insert(tk.INSERT, inputStr)
@@ -135,7 +134,7 @@ class c_step4_get_email:
     
 if __name__ == '__main__':
     window = tk.Tk()
-    window.title('写给苗苗宝宝的邮件附件下载小工具')
+    window.title('QQ邮件附件下载小工具')
     window.geometry('600x400')
     e1 = tk.Label(window,text = '请注意，2020年3月1号填写规范为 20200301', font=('Arial', 12), width=50, height=2)
     e2 = tk.Entry(window, show=None, font=('Arial', 14))
